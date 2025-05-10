@@ -1,0 +1,21 @@
+footer {
+    background: linear-gradient(75deg, #103f8e 0%, #ed1d25 100%);
+    padding: 20px 10px;
+}
+  
+.footer-link a {
+  color: rgba(255, 255, 255, 0.5);
+  transition: color 500ms linear;
+  text-decoration: none;
+}
+  
+.footer-link a:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  text-decoration: none !important;
+}
+
+.footer-link.active {
+  font-weight: bold;
+  color: white !important;
+}
+  

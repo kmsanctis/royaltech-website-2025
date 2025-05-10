@@ -1,0 +1,48 @@
+.products-hero {
+    background-image: url('../assets/Products_Page_Bg.avif');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+  
+.products-hero::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 1;
+}
+  
+.products-hero-title {
+    position: relative;
+    z-index: 2;
+    background: linear-gradient(180deg, #103f8e 0%, #ed1d25 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+.under-development-banner {
+    height: 195px;
+    background-color: #ffefc4;
+    color: #8a4d00;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border-top: 2px solid #ffd27f;
+    border-bottom: 2px solid #ffd27f;
+    margin-top: 0;
+}  
+  

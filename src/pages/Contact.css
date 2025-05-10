@@ -1,0 +1,141 @@
+.contact-hero {
+    background-image: url('../assets/ContactUs_Page_Bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+  
+.contact-hero::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 1;
+}
+  
+.contact-hero-title {
+    position: relative;
+    z-index: 2;
+    background: linear-gradient(180deg, #103f8e 0%, #ed1d25 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+.contact-summary {
+    background-color: #f0f4f8;
+    padding: 20px 15px 0px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #103f8e;
+}
+  
+.info-heading {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #103f8e;
+    font-family: 'Roboto Slab', serif;
+}
+  
+.info-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 700px;
+    width: 100%;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    color: #103f8e;
+}
+  
+.info-card p {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+  
+.info-card i {
+    margin-right: 5px;
+    color: #103f8e;
+}
+  
+.info-card a {
+    color: #103f8e;
+    text-decoration: none;
+}
+  
+.info-card a:hover {
+    text-decoration: underline;
+}
+
+.map-container {
+    margin-left: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+  
+.contact-form-container {
+    width: 100%;
+    max-width: 700px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+  
+.form-title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #103f8e;
+    font-family: 'Roboto Slab', serif;
+}
+  
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+  
+.contact-form .form-control {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 12px;
+    font-size: 1rem;
+}
+  
+.contact-form .form-control:focus {
+    outline: none;
+    border-color: #103f8e;
+    box-shadow: 0 0 0 0.2rem rgba(16, 63, 142, 0.2);
+}
+  
+.submit-btn {
+    background-color: #103f8e;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+  
+.submit-btn:hover {
+    background-color: #0b2c66;
+}
+  

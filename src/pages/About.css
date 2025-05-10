@@ -1,0 +1,106 @@
+.about-hero {
+    background-image: url('../assets/AboutUs_Page_Bg.avif');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+  
+.about-hero::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 1;
+}
+  
+.about-hero-title {
+    position: relative;
+    z-index: 2;
+    background: linear-gradient(180deg, #103f8e 0%, #ed1d25 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+  
+.about-summary {
+    text-align: center;
+    max-width: 1000px;
+    margin: 20px auto 0px auto;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #103f8e;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 15px;
+}
+  
+.about-text-block {
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-heading {
+    text-decoration: underline;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #103f8e;
+    font-family: 'Roboto Slab', serif;
+}
+
+.pixel-text-smooth {
+    animation: smoothPixelIn 1s ease-out forwards;
+    opacity: 0;
+    filter: blur(4px);
+    transform: scale(0.95);
+}
+  
+@keyframes smoothPixelIn {
+    0% {
+      opacity: 0;
+      filter: blur(8px);
+      transform: scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      filter: blur(0);
+      transform: scale(1);
+    }
+}
+  
+.why-choose-us {
+    margin-bottom: 10px;
+}
+
+.why-choose-us h2 {
+    text-decoration: underline;
+}
+  
+.choose-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+  
+.choose-card:hover {
+    transform: translateY(-5px);
+}
+  
+.choose-card h5 {
+    color: #103f8e;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+  

@@ -1,0 +1,26 @@
+.navbar,
+.keyword,
+footer {
+    background: linear-gradient(75deg, #103f8e 0%, #ed1d25 100%);
+}
+
+.nav-item a {
+    color: rgba(255, 255, 255, 0.5);
+    transition: color 500ms linear;
+}
+
+.nav-item a:hover {
+    text-decoration: none !important;
+    color: rgba(255, 255, 255) !important; 
+}
+
+.navbar-logo {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: white !important;
+    border-bottom: 1px solid white;
+}
