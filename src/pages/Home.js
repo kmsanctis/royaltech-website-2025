@@ -27,7 +27,7 @@ function Home() {
         {/* Quick Nav Cards */}
         <div className="row py-4 justify-content-center">
 
-          <div className="col-lg-2 col-md-3 col-6">
+          <div className="col-lg-2 col-md-3 col-6" data-aos="zoom-in" data-aos-duration="1000">
             <div className="quick-nav-item text-center">
               <img src={aboutIcon} alt="About us icon" className="quick-nav-img" />
               <p>
@@ -36,7 +36,7 @@ function Home() {
             </div>
           </div>
 
-          <div className="col-lg-2 col-md-3 col-6">
+          <div className="col-lg-2 col-md-3 col-6" data-aos="zoom-in" data-aos-duration="1000">
             <div className="quick-nav-item text-center">
               <img src={clienteleIcon} alt="Clientele icon" className="quick-nav-img" />
               <p>
@@ -46,7 +46,7 @@ function Home() {
           </div>
 
 
-          <div className="col-lg-2 col-md-3 col-6">
+          <div className="col-lg-2 col-md-3 col-6" data-aos="zoom-in" data-aos-duration="1000">
             <div className="quick-nav-item text-center">
               <img src={productsIcon} alt="Products icon" className="quick-nav-img" />
               <p>
@@ -56,7 +56,7 @@ function Home() {
           </div>
 
 
-          <div className="col-lg-2 col-md-3 col-6">
+          <div className="col-lg-2 col-md-3 col-6" data-aos="zoom-in" data-aos-duration="1000">
             <div className="quick-nav-item text-center">
               <img src={brochureIcon} alt="Brochure icon" className="quick-nav-img" />
               <p>
@@ -66,7 +66,7 @@ function Home() {
           </div>
 
 
-          <div className="col-lg-2 col-md-3 col-6">
+          <div className="col-lg-2 col-md-3 col-6" data-aos="zoom-in" data-aos-duration="1000">
             <div className="quick-nav-item text-center">
               <img src={contactIcon} alt="Contact us icon" className="quick-nav-img" />
               <p>

@@ -1,12 +1,13 @@
 .home-hero {
-    background-image: url('../assets/Home_Page_Bg.jpg');
+    background-image: url('../assets/Home_Page_Bg.avif');
     background-size: cover;
     background-position: center;
-    height: 300px;
+    height: 550px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    border-bottom: 5px solid #103f8e;
 }
   
 .home-hero::before {
