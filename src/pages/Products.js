@@ -6,7 +6,7 @@ function Products() {
     <div>
       {/* Hero Section */}
       <div className="products-hero">
-        <h1 className="products-hero-title">Our Products</h1>
+        <h1 className="products-hero-title pixel-text-smooth">Our Products</h1>
       </div>
 
       <div className="under-development-banner">

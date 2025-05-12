@@ -12,7 +12,7 @@ function Home() {
     <div>
       {/* Hero Section */}
       <div className="home-hero">
-        <h1 className="home-hero-title">Solutions that work for you....... Guaranteed.</h1>
+        <h1 className="home-hero-title pixel-text-smooth">Solutions that work for you....... Guaranteed.</h1>
       </div>
 
       {/* Intro Section */}

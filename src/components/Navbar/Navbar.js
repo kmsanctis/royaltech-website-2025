@@ -13,7 +13,7 @@ function Navbar() {
           alt="RoyalTech Logo"
           className='navbar-logo'
         />
-        RoyalTech Electrical & Contracting Co.
+        <span className="navbar-title-royal">Royal</span><span className='navbar-title-tech'>Tech&nbsp;</span><span className='navbar-title-end'>Electrical & Contracting Co.</span>
       </span>
       <button
         className="navbar-toggler"

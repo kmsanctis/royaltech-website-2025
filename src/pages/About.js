@@ -6,7 +6,7 @@ function About() {
     <div>
       {/* Hero Section */}
       <div className="about-hero">
-        <h1 className="about-hero-title">About Us</h1>
+        <h1 className="about-hero-title pixel-text-smooth">About Us</h1>
       </div>
 
       {/* Intro Summary */}
