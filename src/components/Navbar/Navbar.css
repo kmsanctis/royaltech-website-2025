@@ -1,7 +1,20 @@
 .navbar,
 .keyword,
 footer {
-    background: linear-gradient(75deg, #103f8e 0%, #ed1d25 100%);
+    background: linear-gradient(180deg, #103f8e 0%, #ed1d25 100%);
+}
+
+.navbar-title-royal {
+    color: #ed1d25;
+}
+
+.navbar-title-tech {
+    color: #103f8e;
+}
+
+.navbar-title-royal, .navbar-title-tech, .navbar-title-end {
+    font-weight: bold;
+    font-style: italic;
 }
 
 .nav-item a {

@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    border-bottom: 5px solid #103f8e;
+    border-bottom: 4px solid #103f8e;
 }
   
 .home-hero::before {

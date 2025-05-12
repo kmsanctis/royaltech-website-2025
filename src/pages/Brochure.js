@@ -7,7 +7,7 @@ function Brochure() {
   return (
     <div>
       <div className="brochure-hero">
-        <h1 className="brochure-hero-title">Brochures & Catalogue</h1>
+        <h1 className="brochure-hero-title pixel-text-smooth">Brochures & Catalogue</h1>
       </div>
 
       <div className="brochure-summary">

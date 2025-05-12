@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    border-bottom: 4px solid #103f8e;
 }
   
 .products-hero::before {
@@ -30,6 +31,26 @@
     font-style: italic;
     font-family: 'Roboto Slab', serif;
     text-align: center;
+}
+
+.pixel-text-smooth {
+    animation: smoothPixelIn 1s ease-out forwards;
+    opacity: 0;
+    filter: blur(4px);
+    transform: scale(0.95);
+}
+  
+@keyframes smoothPixelIn {
+    0% {
+      opacity: 0;
+      filter: blur(8px);
+      transform: scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      filter: blur(0);
+      transform: scale(1);
+    }
 }
 
 .under-development-banner {

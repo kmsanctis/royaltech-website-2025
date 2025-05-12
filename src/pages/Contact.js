@@ -6,7 +6,7 @@ function Contact() {
     <div>
       
       <div className="contact-hero">
-        <h1 className="contact-hero-title">Connect with Us!</h1>
+        <h1 className="contact-hero-title pixel-text-smooth">Connect with Us!</h1>
       </div>
 
       <div className="contact-summary">

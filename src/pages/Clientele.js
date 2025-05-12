@@ -46,7 +46,7 @@ function Clientele() {
   return (
     <div>
       <div className="client-hero">
-        <h1 className="client-hero-title">Our Valued Clients</h1>
+        <h1 className="client-hero-title pixel-text-smooth">Our Valued Clients</h1>
       </div>
 
       <div className="client-summary">
