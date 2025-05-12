@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.19df6205.css",
-    "main.js": "/static/js/main.e18bfe01.js",
+    "main.css": "/static/css/main.75e4c99b.css",
+    "main.js": "/static/js/main.f095382d.js",
     "static/media/RT_Brochure.png": "/static/media/RT_Brochure.266a556b5338f855af9f.png",
     "static/media/RTxLK_Brochure.png": "/static/media/RTxLK_Brochure.8cda810535602c254081.png",
     "static/media/ECOVERT_Logo.png": "/static/media/ECOVERT_Logo.3f41700517e699c9d1c0.png",
@@ -10,10 +10,10 @@
     "static/media/KOC_Logo.png": "/static/media/KOC_Logo.a65221420315efe323ac.png",
     "static/media/AboutUs_Page_Bg.avif": "/static/media/AboutUs_Page_Bg.a1bc333a7b5989ae7daf.avif",
     "static/media/DHOW_Logo.jpeg": "/static/media/DHOW_Logo.1097f148ba166e789616.jpeg",
-    "static/media/Home_Page_Bg.jpg": "/static/media/Home_Page_Bg.1e3fff2d88ebf327f45e.jpg",
     "static/media/RT_Logo.jpg": "/static/media/RT_Logo.320eb38e6d09b96cb71a.jpg",
     "static/media/ContactUs_Page_Bg.jpg": "/static/media/ContactUs_Page_Bg.0f51cf97102f7b9f2f9b.jpg",
     "static/media/ARABI_Logo.png": "/static/media/ARABI_Logo.1e16a936a60c45cf3996.png",
+    "static/media/Home_Page_Bg.avif": "/static/media/Home_Page_Bg.8525f69fff5252e13d08.avif",
     "static/media/WALDORF_Logo.webp": "/static/media/WALDORF_Logo.35049cf26aa8ed33fd9b.webp",
     "static/media/UFM_Logo.jpg": "/static/media/UFM_Logo.8e2dda52f95adef7c400.jpg",
     "static/media/Brochure.png": "/static/media/Brochure.b80befda0e8716fd6b74.png",
@@ -28,11 +28,11 @@
     "static/media/Brochure_Page_Bg.avif": "/static/media/Brochure_Page_Bg.5fc76bb2af85a9d948da.avif",
     "static/media/Products_Page_Bg.avif": "/static/media/Products_Page_Bg.9d881a8a2c50263c5e73.avif",
     "index.html": "/index.html",
-    "main.19df6205.css.map": "/static/css/main.19df6205.css.map",
-    "main.e18bfe01.js.map": "/static/js/main.e18bfe01.js.map"
+    "main.75e4c99b.css.map": "/static/css/main.75e4c99b.css.map",
+    "main.f095382d.js.map": "/static/js/main.f095382d.js.map"
   },
   "entrypoints": [
-    "static/css/main.19df6205.css",
-    "static/js/main.e18bfe01.js"
+    "static/css/main.75e4c99b.css",
+    "static/js/main.f095382d.js"
   ]
 }
