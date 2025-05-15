@@ -1,5 +1,7 @@
 import React from 'react';
+
 import './Brochure.css';
+
 import RT_Brochure from '../assets/RT_Brochure.png';
 import RTxLK_Brochure from '../assets/RTxLK_Brochure.png';
 

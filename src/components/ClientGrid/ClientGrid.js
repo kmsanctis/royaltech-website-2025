@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './ClientGrid.css';
 
 function ClientGrid({ clients }) {

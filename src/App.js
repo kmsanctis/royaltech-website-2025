@@ -1,8 +1,5 @@
 import React, { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
@@ -13,6 +10,10 @@ import Clientele from './pages/Clientele';
 import Products from './pages/Products';
 import Contact from './pages/Contact';
 import Brochure from './pages/Brochure';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 function App() {
   useEffect(() => {

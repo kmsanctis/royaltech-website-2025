@@ -1,6 +1,8 @@
 import React from 'react';
-import './Home.css';
 import { Link } from 'react-router-dom';
+
+import './Home.css';
+
 import aboutIcon from '../assets/About.png';
 import clienteleIcon from '../assets/Clientele.png';
 import productsIcon from '../assets/Products.png';
