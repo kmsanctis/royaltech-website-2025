@@ -1,8 +1,9 @@
 import React from 'react';
-//import { Link } from 'react-router-dom';
-import './Navbar.css'; // Optional if you isolate styles
-import logo from '../../assets/RT_Logo.jpg';
 import { NavLink } from 'react-router-dom';
+
+import './Navbar.css';
+
+import logo from '../../assets/RT_Logo.jpg';
 
 function Navbar() {
   return (

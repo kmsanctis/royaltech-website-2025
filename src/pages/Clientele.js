@@ -1,5 +1,7 @@
 import React from 'react';
+
 import ClientGrid from '../components/ClientGrid/ClientGrid';
+
 import './Clientele.css';
 
 import KOCLogo from '../assets/KOC_Logo.png';
