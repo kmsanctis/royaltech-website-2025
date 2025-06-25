@@ -1,8 +1,24 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 import './Contact.css';
 
 function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+  e.preventDefault();
+
+  emailjs.sendForm('service_lfhgncg', 'template_xhp5fkv', form.current, 'K6kkeVsr1dmW9512g')
+    .then((result) => {
+      alert('Message sent successfully! Our team will get back to you at the earliest.');
+      e.target.reset();
+    }, (error) => {
+      alert('Failed to send message, please try again later.');
+      console.error(error.text);
+    });
+  };
+
   return (
     <div>
       
@@ -43,25 +59,25 @@ function Contact() {
       <div className='d-flex justify-content-center py-3' data-aos='fade-up'>
         <div className="contact-form-container">
           <h3 className="form-title">Send Us a Message</h3>
-          <form className="contact-form">
+          <form ref={form} onSubmit={sendEmail} className="contact-form">
             <div className="form-group">
               <label htmlFor="name">Name</label>
-              <input type="text" className="form-control" id="name" placeholder="Your Name" required />
+              <input type="text" className="form-control" name="user_name" id="name" placeholder="Your Name" required />
             </div>
 
             <div className="form-group">
               <label htmlFor="email">Email</label>
-              <input type="email" className="form-control" id="email" placeholder="Your Email" required />
+              <input type="email" className="form-control" name="user_email" id="email" placeholder="Your Email" required />
             </div>
 
             <div className="form-group">
               <label htmlFor="subject">Subject</label>
-              <input type="text" className="form-control" id="subject" placeholder="Subject" />
+              <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" />
             </div>
 
             <div className="form-group">
               <label htmlFor="message">Message</label>
-              <textarea className="form-control" id="message" rows="5" placeholder="Your message here..." required></textarea>
+              <textarea className="form-control" name="message" id="message" rows="5" placeholder="Your message here..." required></textarea>
             </div>
 
             <button type="submit" className="submit-btn">Send Message</button>
