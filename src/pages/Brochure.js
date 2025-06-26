@@ -3,7 +3,9 @@ import React from 'react';
 import './Brochure.css';
 
 import RT_Brochure from '../assets/RT_Brochure.png';
-import RTxLK_Brochure from '../assets/RTxLK_Brochure.png';
+//import RTxLK_Brochure from '../assets/RTxLK_Brochure.png';
+import RT_Catalogue_Page_1 from '../assets/RT_Catalogue_Page_1.png';
+import RT_Catalogue_Page_2 from '../assets/RT_Catalogue_Page_2.png';
 
 function Brochure() {
   return (
@@ -27,7 +29,21 @@ function Brochure() {
         </div>
       </div>
 
-      <h2 className="brochure-heading">RoyalTech X Lauritz Knudsen Brochure</h2>
+      <h2 className="brochure-heading">RoyalTech Catalogue</h2>
+
+      <div className="catalogue-image-wrapper" data-aos="fade-up">
+        <span>
+          <img src={RT_Catalogue_Page_1} alt="RoyalTech Catalogue Page 1" className="catalogue-image" />
+          <img src={RT_Catalogue_Page_2} alt="RoyalTech Catalogue Page 2" className="catalogue-image catalogue-image-2" />
+        </span>
+        <div className="download-btn-container">
+          <a href="/RT_Catalogue.pdf" download className="download-brochure-btn">
+            Download Catalogue
+          </a>
+        </div>
+      </div>
+
+      {/*<h2 className="brochure-heading">RoyalTech X Lauritz Knudsen Brochure</h2>
 
       <div className="brochure-image-wrapper" data-aos='fade-up'>
         <img src={RTxLK_Brochure} alt="RoyalTech X Laurtiz Knudsen Brochure" className="brochure-image" />
@@ -36,7 +52,7 @@ function Brochure() {
             Download Brochure
           </a>
         </div>
-      </div>
+      </div>*/}
     </div>
   );
 }
