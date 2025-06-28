@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.17adfe77.css",
-    "main.js": "/static/js/main.a55d15a6.js",
+    "main.css": "/static/css/main.8255b41e.css",
+    "main.js": "/static/js/main.69dd445f.js",
     "static/media/RT_Catalogue_Page_1.png": "/static/media/RT_Catalogue_Page_1.6befac2adcc828337c52.png",
     "static/media/RT_Catalogue_Page_2.png": "/static/media/RT_Catalogue_Page_2.dc0d3ae1b748e4e280e1.png",
     "static/media/RT_Brochure.png": "/static/media/RT_Brochure.9e682e8b872ea364446c.png",
@@ -29,11 +29,11 @@
     "static/media/Clientele_Page_Bg.avif": "/static/media/Clientele_Page_Bg.c8401b831cb0af057770.avif",
     "static/media/Brochure_Page_Bg.avif": "/static/media/Brochure_Page_Bg.5fc76bb2af85a9d948da.avif",
     "index.html": "/index.html",
-    "main.17adfe77.css.map": "/static/css/main.17adfe77.css.map",
-    "main.a55d15a6.js.map": "/static/js/main.a55d15a6.js.map"
+    "main.8255b41e.css.map": "/static/css/main.8255b41e.css.map",
+    "main.69dd445f.js.map": "/static/js/main.69dd445f.js.map"
   },
   "entrypoints": [
-    "static/css/main.17adfe77.css",
-    "static/js/main.a55d15a6.js"
+    "static/css/main.8255b41e.css",
+    "static/js/main.69dd445f.js"
   ]
 }
