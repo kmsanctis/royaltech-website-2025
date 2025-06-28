@@ -6,10 +6,12 @@ footer {
 
 .navbar-title-royal {
     color: #ed1d25;
+    -webkit-text-stroke: 0.5px white; /* white outline */
 }
 
 .navbar-title-tech {
     color: #103f8e;
+    -webkit-text-stroke: 0.5px white; /* white outline */
 }
 
 .navbar-title-royal, .navbar-title-tech, .navbar-title-end {
