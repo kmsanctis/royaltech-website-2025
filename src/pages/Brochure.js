@@ -32,15 +32,13 @@ function Brochure() {
       <h2 className="brochure-heading">RoyalTech Catalogue</h2>
 
       <div className="catalogue-image-wrapper" data-aos="fade-up">
-        <span>
           <img src={RT_Catalogue_Page_1} alt="RoyalTech Catalogue Page 1" className="catalogue-image" />
           <img src={RT_Catalogue_Page_2} alt="RoyalTech Catalogue Page 2" className="catalogue-image catalogue-image-2" />
-        </span>
-        <div className="download-btn-container">
+      </div>
+      <div className="download-btn-container-catalogue">
           <a href="/RT_Catalogue.pdf" download className="download-brochure-btn">
             Download Catalogue
           </a>
-        </div>
       </div>
 
       {/*<h2 className="brochure-heading">RoyalTech X Lauritz Knudsen Brochure</h2>
