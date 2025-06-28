@@ -56,7 +56,7 @@ function Contact() {
 
       <h2 className="info-heading">Contact Form</h2>
 
-      <div className='d-flex justify-content-center py-3' data-aos='fade-up'>
+      <div className='container d-flex justify-content-center py-3' data-aos='fade-up'>
         <div className="contact-form-container">
           <h3 className="form-title">Send Us a Message</h3>
           <form ref={form} onSubmit={sendEmail} className="contact-form">
