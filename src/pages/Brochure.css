@@ -80,32 +80,53 @@
 }
   
 .brochure-image {
-    width: 80%;
+    width: 85%;
     max-width: 550px;
     border-radius: 8px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
 .catalogue-image-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px 0px 20px;
 }
 
 .catalogue-image {
-  width: 80%;
-  max-width: 550px;
-  border-radius: 8px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    width: 85%;
+    max-width: 550px;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
 .catalogue-image-2 {
-    margin-left: 10px;
+    margin-top: 10px;
+}
+
+@media (min-width: 992px) {
+    .catalogue-image-wrapper {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .catalogue-image {
+        width: 45%;
+    }
+
+    .catalogue-image-2 {
+        margin-left: 10px;
+        margin-top: 0px;
+    }
 }
   
-.download-btn-container {
+.download-btn-container, .download-btn-container-catalogue {
     margin-top: 25px;
+}
+
+.download-btn-container-catalogue {
+    margin-bottom: 20px;
+    text-align: center;
 }
   
 .download-brochure-btn {
