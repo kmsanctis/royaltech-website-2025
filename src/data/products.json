@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "title": "T8 LED Tube",
+    "image": "T8_LED_Tube.jpg",
+    "variants": [
+      { "type": "2 Feet", "colours": "3000K, 4000K, 6500K" },
+      { "type": "3 Feet", "colours": "6500K" },
+      { "type": "4 Feet", "colours": "3000K, 4000K, 6500K" },
+      { "type": "5 Feet", "colours": "3000K, 4000K, 6500K" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "T5 LED Tube",
+    "image": "T5_LED_Tube.webp",
+    "variants": [
+      { "type": "2 Feet", "colours": "4000K" },
+      { "type": "4 Feet", "colours": "4000K, 6500K" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "T8 Fluorescent Tube",
+    "image": "T8_Tube.jpg",
+    "variants": [
+      { "type": "1 Feet (10W)", "colours": "6500K" },
+      { "type": "1.5 Feet (15W)", "colours": "6500K" },
+      { "type": "2 Feet (18W)", "colours": "3000K, 4000K, 6500K" },
+      { "type": "3 Feet (30W)", "colours": "6500K" },
+      { "type": "4 Feet (36W)", "colours": "3000K, 4000K, 6500K" },
+      { "type": "5 Feet (58W)", "colours": "3000K, 4000K, 6500K" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "T5 Fluorescent Tube",
+    "image": "T5_Tube.jpg",
+    "variants": [
+      { "type": "1 Feet (8W)", "colours": "3000K, 4000K, 6500K" },  
+      { "type": "2 Feet (14W, 24W)", "colours": "3000K, 4000K, 6500K" },
+      { "type": "3 Feet (21W)", "colours": "3000K, 4000K, 6500K" },
+      { "type": "4 Feet (28W, 54W)", "colours": "3000K, 4000K, 6500K" },
+      { "type": "5 Feet (35W, 49W, 80W)", "colours": "3000K, 4000K, 6500K" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "T4 Fluorescent Tube",
+    "image": "T4_Tube.jpg",
+    "variants": [
+      { "type": "2 Feet (13W)", "colours": "6500K" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Round Fluorescent Tube",
+    "image": "Round_Tube.jpg",
+    "variants": [
+      { "type": "Round Shape (22W, 32W)", "colours": "6500K" }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "U Fluorescent Tube",
+    "image": "U_Tube.jpg",
+    "variants": [
+      { "type": "U Shape (36W)", "colours": "4000K" }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Insect Killer Tube",
+    "image": "Blacklight_Tube.webp",
+    "variants": [
+      { "type": "4W, 6W, 8W, 10W, 15W, 18W, 20W, 40W", "colours": "Blacklight, BL" }
+    ]
+  }
+]
