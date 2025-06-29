@@ -34,11 +34,11 @@ function Contact() {
 
       <div className="container d-flex justify-content-center align-items-start gap-4 flex-wrap contact-top-section py-3" data-aos='fade-up'>
         <div className="info-card">
-          <p><i className="fas fa-envelope"></i> Email: <a href="mailto:sales@royaltechkuwait.com">sales@royaltechkuwait.com</a></p>
-          <p><i className="fa-brands fa-whatsapp"></i> WhatsApp: +965 97891275 &nbsp; <i class="fa-brands fa-instagram"></i> Instagram: royaltech_electrical_company</p>
-          <p><i className="fas fa-phone"></i> Telephone: +965 24916730/735</p>
-          <p><i className="fas fa-fax"></i> Fax: +965 24916751</p>
-          <p><i className="fas fa-location-dot"></i> Location: Shuwaikh Industrial Area, Block 1, Street 18, Building 148, Office 11, Shuwaikh, Kuwait</p>
+          <p><i className="fas fa-envelope"></i> <span className='info-title'>Email:</span> <a href="mailto:sales@royaltechkuwait.com">sales@royaltechkuwait.com</a></p>
+          <p><i className="fa-brands fa-whatsapp"></i> <span className='info-title'>WhatsApp:</span> +965 97891275 &nbsp; <i class="fa-brands fa-instagram"></i> <span className='info-title'>Instagram:</span> royaltech_electrical_company</p>
+          <p><i className="fas fa-phone"></i> <span className='info-title'>Telephone:</span> +965 24916730/735</p>
+          <p><i className="fas fa-fax"></i> <span className='info-title'>Fax:</span> +965 24916751</p>
+          <p><i className="fas fa-location-dot"></i> <span className='info-title'>Location:</span> Shuwaikh Industrial Area, Block 1, Street 18, Building 148, Office 11, Shuwaikh, Kuwait</p>
         </div>
         <div className="map-container">
           <iframe

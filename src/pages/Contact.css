@@ -79,26 +79,31 @@
     width: 100%;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
     font-family: 'Poppins', sans-serif;
-    color: #103f8e;
 }
   
 .info-card p {
     margin-bottom: 12px;
     line-height: 1.6;
+    color: black;
 }
   
 .info-card i {
     margin-right: 5px;
     color: #103f8e;
 }
+
+.info-title {
+    color: #103f8e;
+}
   
 .info-card a {
-    color: #103f8e;
-    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+    transition: color 0.4s linear;
 }
   
 .info-card a:hover {
-    text-decoration: underline;
+    color: #1a73e8;
 }
 
 .map-container {
