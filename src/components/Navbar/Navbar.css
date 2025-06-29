@@ -32,13 +32,13 @@ footer {
 }
 
 .nav-item a {
-    color: rgba(255, 255, 255, 0.5);
-    transition: color 500ms linear;
+    color: #1a1a1a !important;
+    transition: color 0.5s linear;
 }
 
 .nav-item a:hover {
     text-decoration: none !important;
-    color: rgba(255, 255, 255) !important; 
+    color: rgba(255, 255, 255, 1) !important; 
 }
 
 .navbar-logo {
