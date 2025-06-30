@@ -26,13 +26,14 @@ body.modal-open {
 }
 
 .modal-close {
-  position: absolute;
-  top: 8px;
-  right: 12px;
+  position: sticky;
+  top: 1px;
+  margin-left: auto;
   background: none;
   border: none;
   font-size: 1.8rem;
   cursor: pointer;
+  z-index: 2;
 }
 
 .modal-img {

@@ -20,15 +20,17 @@ const ProductModal = ({ product, onClose }) => {
             <table className="product-table">
                 <thead>
                     <tr>
-                        <th>Type</th>
-                        <th>Available&nbsp;Colours</th>
+                      {product.headers.map(header => (
+                        <th>{header}</th>
+                      ))}
                     </tr>
                 </thead>
                 <tbody>
                     {product.variants.map((row, idx) => (
                         <tr key={idx}>
-                            <td>{row.type}</td>
-                            <td>{row.colours}</td>
+                          {row.map(value => (
+                            <td>{value}</td>
+                          ))}
                         </tr>
                     ))}
                 </tbody>
