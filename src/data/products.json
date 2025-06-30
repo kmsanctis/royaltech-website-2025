@@ -3,154 +3,168 @@
     "id": 1,
     "title": "T8 LED Tube",
     "image": "T8_LED_Tube.jpg",
+    "headers": ["Length", "Available Colours"],
     "variants": [
-      { "type": "2 Feet", "colours": "3000K, 4000K, 6500K" },
-      { "type": "3 Feet", "colours": "6500K" },
-      { "type": "4 Feet", "colours": "3000K, 4000K, 6500K" },
-      { "type": "5 Feet", "colours": "3000K, 4000K, 6500K" }
+      ["2 Feet", "3000K, 4000K, 6500K"],
+      ["3 Feet", "6500K"],
+      ["4 Feet", "3000K, 4000K, 6500K"],
+      ["5 Feet", "3000K, 4000K, 6500K"]
     ]
   },
   {
     "id": 2,
     "title": "T5 LED Tube",
     "image": "T5_LED_Tube.webp",
+    "headers": ["Length", "Available Colours"],
     "variants": [
-      { "type": "2 Feet", "colours": "4000K" },
-      { "type": "4 Feet", "colours": "4000K, 6500K" }
+      ["2 Feet", "4000K"],
+      ["4 Feet", "4000K, 6500K"]
     ]
   },
   {
     "id": 3,
     "title": "T8 Fluorescent Tube",
     "image": "T8_Tube.jpg",
+    "headers": ["Length", "Wattage", "Available Colours"],
     "variants": [
-      { "type": "1 Feet (10W)", "colours": "6500K" },
-      { "type": "1.5 Feet (15W)", "colours": "6500K" },
-      { "type": "2 Feet (18W)", "colours": "3000K, 4000K, 6500K" },
-      { "type": "3 Feet (30W)", "colours": "6500K" },
-      { "type": "4 Feet (36W)", "colours": "3000K, 4000K, 6500K" },
-      { "type": "5 Feet (58W)", "colours": "3000K, 4000K, 6500K" }
+      ["1 Feet", "10W", "6500K"],
+      ["1.5 Feet", "15W", "6500K"],
+      ["2 Feet", "18W", "3000K, 4000K, 6500K"],
+      ["3 Feet", "30W", "6500K"],
+      ["4 Feet", "36W", "3000K, 4000K, 6500K"],
+      ["5 Feet", "58W", "3000K, 4000K, 6500K"]
     ]
   },
   {
     "id": 4,
     "title": "T5 Fluorescent Tube",
     "image": "T5_Tube.jpg",
+    "headers": ["Length", "Wattage", "Available Colours"],
     "variants": [
-      { "type": "1 Feet (8W)", "colours": "3000K, 4000K, 6500K" },  
-      { "type": "2 Feet (14W, 24W)", "colours": "3000K, 4000K, 6500K" },
-      { "type": "3 Feet (21W)", "colours": "3000K, 4000K, 6500K" },
-      { "type": "4 Feet (28W, 54W)", "colours": "3000K, 4000K, 6500K" },
-      { "type": "5 Feet (35W, 49W, 80W)", "colours": "3000K, 4000K, 6500K" }
+      ["1 Feet", "8W", "3000K, 4000K, 6500K"],
+      ["2 Feet", "14W, 24W", "3000K, 4000K, 6500K"],
+      ["3 Feet", "21W", "3000K, 4000K, 6500K"],
+      ["4 Feet", "28W, 54W", "3000K, 4000K, 6500K"],
+      ["5 Feet", "35W, 49W, 80W", "3000K, 4000K, 6500K"]
     ]
   },
   {
     "id": 5,
     "title": "T4 Fluorescent Tube",
     "image": "T4_Tube.jpg",
+    "headers": ["Length", "Wattage", "Available Colours"],
     "variants": [
-      { "type": "2 Feet (13W)", "colours": "6500K" }
+      ["2 Feet", "13W", "6500K"]
     ]
   },
   {
     "id": 6,
     "title": "Round Fluorescent Tube",
     "image": "Round_Tube.jpg",
+    "headers": ["Shape", "Wattage", "Available Colours"],
     "variants": [
-      { "type": "Round Shape (22W, 32W)", "colours": "6500K" }
+      ["Round", "22W, 32W", "6500K"]
     ]
   },
   {
     "id": 7,
     "title": "U Fluorescent Tube",
     "image": "U_Tube.jpg",
+    "headers": ["Shape", "Wattage", "Available Colours"],
     "variants": [
-      { "type": "U Shape (36W)", "colours": "4000K" }
+      ["U", "36W", "4000K"]
     ]
   },
   {
     "id": 8,
     "title": "Insect Killer Tube",
     "image": "Blacklight_Tube.webp",
+    "headers": ["Wattage", "Available Colours"],
     "variants": [
-      { "type": "4W, 6W, 8W, 10W, 15W, 18W, 20W, 40W", "colours": "Blacklight, BL" }
+      ["4W, 6W, 8W, 10W, 15W, 18W, 20W, 40W", "Blacklight, BL"]
     ]
   },
   {
     "id": 9,
     "title": "LED PL Lamp",
     "image": "LED_PL_Lamp.jpg",
+    "headers": ["Type", "Available Colours"],
     "variants": [
-      { "type": "7W 4PIN", "colours": "3000K" },
-      { "type": "8.5W 2PIN", "colours": "4000K, 6500K" },
-      { "type": "10W 2PIN", "colours": "3000K, 4000K, 6500K" },
-      { "type": "10.5W 2PIN", "colours": "4000K, 6500K" },
-      { "type": "11W 2PIN", "colours": "6500K" },
-      { "type": "12W 2PIN", "colours": "6500K" }
+      ["7W 4PIN", "3000K"],
+      ["8.5W 2PIN", "4000K, 6500K"],
+      ["10W 2PIN", "3000K, 4000K, 6500K"],
+      ["10.5W 2PIN", "4000K, 6500K"],
+      ["11W 2PIN", "6500K"],
+      ["12W 2PIN", "6500K"]
     ]
   },
   {
     "id": 10,
     "title": "PL Lamp - 2G7",
     "image": "2G7_PL_Lamp.jpg",
+    "headers": ["Type", "Available Colours"],
     "variants": [
-      { "type": "7W 4PIN", "colours": "3000K" },
-      { "type": "11W 4PIN", "colours": "4000K" }
+      ["7W 4PIN", "3000K"],
+      ["11W 4PIN", "4000K"]
     ]
   },
   {
     "id": 11,
     "title": "PL Lamp - 2G10",
     "image": "2G10_PL_Lamp.webp",
+    "headers": ["Type", "Available Colours"],
     "variants": [
-      { "type": "24W 4PIN", "colours": "2700K, 4000K" },
-      { "type": "36W 4PIN", "colours": "4000K" }
+      ["24W 4PIN", "2700K, 4000K"],
+      ["36W 4PIN", "4000K"]
     ]
   },
   {
     "id": 12,
     "title": "PL Lamp - 2G11",
     "image": "2G11_PL_Lamp.jpg",
+    "headers": ["Type", "Available Colours"],
     "variants": [
-      { "type": "18W 4PIN", "colours": "3000K, 4000K, 6500K" },
-      { "type": "24W 4PIN", "colours": "3000K, 4000K" },
-      { "type": "36W 4PIN", "colours": "3000K, 4000K, 6500K" },
-      { "type": "40W 4PIN", "colours": "3000K, 4000K, 6500K" },
-      { "type": "55W 4PIN", "colours": "3000K, 4000K, 6500K" }
+      ["18W 4PIN", "3000K, 4000K, 6500K"],
+      ["24W 4PIN", "3000K, 4000K"],
+      ["36W 4PIN", "3000K, 4000K, 6500K"],
+      ["40W 4PIN", "3000K, 4000K, 6500K"],
+      ["55W 4PIN", "3000K, 4000K, 6500K"]
     ]
   },
   {
     "id": 13,
     "title": "PL Lamp - 2U",
     "image": "2U_PL_Lamp.jpg",
+    "headers": ["Type", "Available Colours"],
     "variants": [
-      { "type": "5W 2PIN", "colours": "4000K" },
-      { "type": "7W 2PIN", "colours": "3000K, 4000K, 6500K" },
-      { "type": "9W 2PIN", "colours": "3000K, 4000K, 6500K" },
-      { "type": "9W 4PIN", "colours": "4000K" },
-      { "type": "10W 2PIN", "colours": "2700K, 6500K" },
-      { "type": "10W 4PIN", "colours": "3000K" },
-      { "type": "11W 2PIN", "colours": "2700K, 3000K, 4000K, 6500K" },
-      { "type": "13W 2PIN", "colours": "3000K, 4000K, 6500K" },
-      { "type": "13W 4PIN", "colours": "2700K, 3000K, 4000K, 6500K" },
-      { "type": "18W 2PIN", "colours": "3000K, 4000K, 6500K" },
-      { "type": "18W 4PIN", "colours": "3000K, 4000K" },
-      { "type": "26W 2PIN", "colours": "3000K, 4000K, 6500K" },
-      { "type": "26W 4PIN", "colours": "3000K, 4000K, 6500K" }
+      ["5W 2PIN", "4000K"],
+      ["7W 2PIN", "3000K, 4000K, 6500K"],
+      ["9W 2PIN", "3000K, 4000K, 6500K"],
+      ["9W 4PIN", "4000K"],
+      ["10W 2PIN", "2700K, 6500K"],
+      ["10W 4PIN", "3000K"],
+      ["11W 2PIN", "2700K, 3000K, 4000K, 6500K"],
+      ["13W 2PIN", "3000K, 4000K, 6500K"],
+      ["13W 4PIN", "2700K, 3000K, 4000K, 6500K"],
+      ["18W 2PIN", "3000K, 4000K, 6500K"],
+      ["18W 4PIN", "3000K, 4000K"],
+      ["26W 2PIN", "3000K, 4000K, 6500K"],
+      ["26W 4PIN", "3000K, 4000K, 6500K"]
     ]
   },
   {
     "id": 14,
     "title": "PL Lamp - 3U",
     "image": "3U_PL_Lamp.jpg",
+    "headers": ["Type", "Available Colours"],
     "variants": [
-      { "type": "13W 4PIN", "colours": "2700K, 4000K" },
-      { "type": "18W 2PIN", "colours": "3000K, 4000K" },
-      { "type": "18W 4PIN", "colours": "2700K, 3000K, 4000K, 6500K" },
-      { "type": "26W 2PIN", "colours": "3000K, 4000K" },
-      { "type": "26W 4PIN", "colours": "3000K, 4000K" },
-      { "type": "32W 4PIN", "colours": "3000K, 4000K" },
-      { "type": "42W 4PIN", "colours": "3000K, 4000K" }
+      ["13W 4PIN", "2700K, 4000K"],
+      ["18W 2PIN", "3000K, 4000K"],
+      ["18W 4PIN", "2700K, 3000K, 4000K, 6500K"],
+      ["26W 2PIN", "3000K, 4000K"],
+      ["26W 4PIN", "3000K, 4000K"],
+      ["32W 4PIN", "3000K, 4000K"],
+      ["42W 4PIN", "3000K, 4000K"]
     ]
   }
 ]
