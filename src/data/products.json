@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "category": "Tube",
     "title": "T8 LED Tube",
     "image": "T8_LED_Tube.jpg",
     "headers": ["Length", "Available Colours"],
@@ -13,6 +14,7 @@
   },
   {
     "id": 2,
+    "category": "Tube",
     "title": "T5 LED Tube",
     "image": "T5_LED_Tube.webp",
     "headers": ["Length", "Available Colours"],
@@ -23,6 +25,7 @@
   },
   {
     "id": 3,
+    "category": "Tube",
     "title": "T8 Fluorescent Tube",
     "image": "T8_Tube.jpg",
     "headers": ["Length", "Wattage", "Available Colours"],
@@ -37,6 +40,7 @@
   },
   {
     "id": 4,
+    "category": "Tube",
     "title": "T5 Fluorescent Tube",
     "image": "T5_Tube.jpg",
     "headers": ["Length", "Wattage", "Available Colours"],
@@ -50,6 +54,7 @@
   },
   {
     "id": 5,
+    "category": "Tube",
     "title": "T4 Fluorescent Tube",
     "image": "T4_Tube.jpg",
     "headers": ["Length", "Wattage", "Available Colours"],
@@ -59,6 +64,7 @@
   },
   {
     "id": 6,
+    "category": "Tube",
     "title": "Round Fluorescent Tube",
     "image": "Round_Tube.jpg",
     "headers": ["Shape", "Wattage", "Available Colours"],
@@ -68,6 +74,7 @@
   },
   {
     "id": 7,
+    "category": "Tube",
     "title": "U Fluorescent Tube",
     "image": "U_Tube.jpg",
     "headers": ["Shape", "Wattage", "Available Colours"],
@@ -77,6 +84,7 @@
   },
   {
     "id": 8,
+    "category": "Tube",
     "title": "Insect Killer Tube",
     "image": "Blacklight_Tube.webp",
     "headers": ["Wattage", "Available Colours"],
@@ -86,6 +94,7 @@
   },
   {
     "id": 9,
+    "category": "PL Lamp",
     "title": "LED PL Lamp",
     "image": "LED_PL_Lamp.jpg",
     "headers": ["Type", "Available Colours"],
@@ -100,6 +109,7 @@
   },
   {
     "id": 10,
+    "category": "PL Lamp",
     "title": "PL Lamp - 2G7",
     "image": "2G7_PL_Lamp.jpg",
     "headers": ["Type", "Available Colours"],
@@ -110,6 +120,7 @@
   },
   {
     "id": 11,
+    "category": "PL Lamp",
     "title": "PL Lamp - 2G10",
     "image": "2G10_PL_Lamp.webp",
     "headers": ["Type", "Available Colours"],
@@ -120,6 +131,7 @@
   },
   {
     "id": 12,
+    "category": "PL Lamp",
     "title": "PL Lamp - 2G11",
     "image": "2G11_PL_Lamp.jpg",
     "headers": ["Type", "Available Colours"],
@@ -133,6 +145,7 @@
   },
   {
     "id": 13,
+    "category": "PL Lamp",
     "title": "PL Lamp - 2U",
     "image": "2U_PL_Lamp.jpg",
     "headers": ["Type", "Available Colours"],
@@ -154,6 +167,7 @@
   },
   {
     "id": 14,
+    "category": "PL Lamp",
     "title": "PL Lamp - 3U",
     "image": "3U_PL_Lamp.jpg",
     "headers": ["Type", "Available Colours"],
