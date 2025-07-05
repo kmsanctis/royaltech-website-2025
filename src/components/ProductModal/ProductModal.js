@@ -1,7 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+
 import './ProductModal.css';
 
 const ProductModal = ({ product, onClose }) => {
+   /* ── Lock page scroll while modal is open ── */
+  useEffect(() => {
+    if (product) {
+      document.body.classList.add('modal-open');
+    } else {
+      document.body.classList.remove('modal-open');
+    }
+    /* Safety cleanup if the modal unmounts */
+    return () => document.body.classList.remove('modal-open');
+  }, [product]);
+
   if (!product) return null;
 
   return (

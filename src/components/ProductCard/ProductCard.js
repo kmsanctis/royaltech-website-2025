@@ -12,9 +12,6 @@ const ProductCard = ({ product, onOpen }) => (
       className="product-img"
     />
     <h4 className="product-title">{product.title}</h4>
-    {/*<button className="more-btn" onClick={() => onOpen(product)}>
-      Click to know more!
-    </button>*/}
   </div>
 );
 

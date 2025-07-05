@@ -9,6 +9,19 @@ import './Products.css';
 function Products() {
   const [products] = useState(productsData);
   const [activeProduct, setActiveProduct] = useState(null);
+  const [selectedCategory, setSelectedCategory] = useState('All');
+
+  /* filter products when a category is chosen */
+  const displayedProducts =
+    selectedCategory === 'All'
+      ? products
+      : products.filter((p) => p.category === selectedCategory);
+
+  const categories = [
+    "All",
+    "Tube",
+    "PL Lamp",
+  ];
 
   return (
     <div>
@@ -29,8 +42,21 @@ function Products() {
 
       <h2 className="products-heading">Products Lineup</h2>
 
+      {/* Category buttons */}
+      <div className="category-bar">
+        {categories.map((cat) => (
+          <button
+            key={cat}
+            className={`cat-btn ${cat === selectedCategory ? 'active' : ''}`}
+            onClick={() => setSelectedCategory(cat)}
+          >
+            {cat}
+          </button>
+        ))}
+      </div>
+
       <div className="products-grid container" data-aos="fade-up">
-        {products.map((prod) => (
+        {displayedProducts.map((prod) => (
           <ProductCard
             key={prod.id}
             product={prod}
