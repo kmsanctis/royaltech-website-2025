@@ -22,10 +22,11 @@ function Brochure() {
 
       <div className="brochure-image-wrapper" data-aos='fade-up'>
         <img src={RT_Brochure} alt="RoyalTech Brochure" className="brochure-image" />
-        <div className="download-btn-container">
-          <a href="/RT_Brochure.pdf" download className="download-brochure-btn">
-            Download Brochure
-          </a>
+        <div className="split-download-btn">
+          <div className="btn-text">Download Brochure</div>
+            <a href="/RT_Brochure.pdf" download className="btn-icon" title="Download Brochure">
+              <i className="fas fa-download"></i>
+            </a>
         </div>
       </div>
 
@@ -35,10 +36,11 @@ function Brochure() {
           <img src={RT_Catalogue_Page_1} alt="RoyalTech Catalogue Page 1" className="catalogue-image" />
           <img src={RT_Catalogue_Page_2} alt="RoyalTech Catalogue Page 2" className="catalogue-image catalogue-image-2" />
       </div>
-      <div className="download-btn-container-catalogue">
-          <a href="/RT_Catalogue.pdf" download className="download-brochure-btn">
-            Download Catalogue
-          </a>
+      <div className="split-download-btn-catalogue">
+          <div className="btn-text">Download Catalogue</div>
+            <a href="/RT_Catalogue.pdf" download className="btn-icon" title="Download Catalogue">
+              <i className="fas fa-download"></i>
+            </a>
       </div>
 
       {/*<h2 className="brochure-heading">RoyalTech X Lauritz Knudsen Brochure</h2>
