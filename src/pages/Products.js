@@ -21,6 +21,10 @@ function Products() {
     "All",
     "Tube",
     "PL Lamp",
+    "Downlight Fitting",
+    "60x60 Panel",
+    "Lamp",
+    "PVC Pipe"
   ];
 
   return (
