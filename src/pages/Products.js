@@ -23,6 +23,8 @@ function Products() {
     "PL Lamp",
     "Downlight Fitting",
     "60x60 Panel",
+    "Floodlight",
+    "Highbay",
     "Lamp",
     "PVC Pipe"
   ];
