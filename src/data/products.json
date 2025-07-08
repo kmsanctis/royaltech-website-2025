@@ -184,6 +184,15 @@
   {
     "id": 15,
     "category": "Downlight Fitting",
+    "title": "LED COB Downlight",
+    "image": "COB_Downlight_Fitting.jpg",
+    "headers": ["More details to come!"],
+    "variants": [
+    ]
+  },
+  {
+    "id": 16,
+    "category": "Downlight Fitting",
     "title": "LED Surface Downlight",
     "image": "Surface_Downlight_Fitting.jpg",
     "headers": ["Wattage", "Available Colours"],
@@ -212,7 +221,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "category": "Downlight Fitting",
     "title": "LED Panel Downlight",
     "image": "Panel_Downlight_Fitting.webp",
@@ -250,7 +259,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "category": "60x60 Panel",
     "title": "LED 60x60 Panel",
     "image": "LED_60x60_Panel.jpg",
@@ -274,7 +283,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "category": "60x60 Panel",
     "title": "60x60 Panel",
     "image": "60x60_Panel.webp",
@@ -284,7 +293,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "category": "Floodlight",
     "title": "LED Floodlight",
     "image": "Floodlight_Fitting.webp",
@@ -309,7 +318,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "category": "Highbay",
     "title": "LED Highbay",
     "image": "Highbay_Fitting.jpg",
@@ -328,7 +337,52 @@
     ]
   },
   {
-    "id": 21,
+    "id": 22,
+    "category": "Bulkhead",
+    "title": "LED Bulkhead",
+    "image": "Bulkhead_Fitting.jpg",
+    "headers": ["More details to come!"],
+    "variants": [
+    ]
+  },
+  {
+    "id": 23,
+    "category": "Lamp",
+    "title": "LED Candle Lamp",
+    "image": "Candle_Lamp.jpg",
+    "headers": ["More details to come!"],
+    "variants": [
+    ]
+  },
+  {
+    "id": 24,
+    "category": "Lamp",
+    "title": "LED Ball Lamp",
+    "image": "Ball_Lamp.webp",
+    "headers": ["More details to come!"],
+    "variants": [
+    ]
+  },
+  {
+    "id": 25,
+    "category": "Lamp",
+    "title": "LED GLS Lamp",
+    "image": "GLS_Lamp.webp",
+    "headers": ["More details to come!"],
+    "variants": [
+    ]
+  },
+  {
+    "id": 26,
+    "category": "Lamp",
+    "title": "LED Energy Saver (ES) Lamp",
+    "image": "ES_Lamp.avif",
+    "headers": ["More details to come!"],
+    "variants": [
+    ]
+  },
+  {
+    "id": 27,
     "category": "Lamp",
     "title": "LED Stick Lamp",
     "image": "Stick_Lamp.avif",
@@ -351,7 +405,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 28,
     "category": "Lamp",
     "title": "LED Cylinder Lamp",
     "image": "Cylinder_Lamp.avif",
@@ -379,7 +433,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 29,
     "category": "Lamp",
     "title": "LED 2D Lamp",
     "image": "LED_2D_Lamp.webp",
@@ -389,7 +443,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 30,
     "category": "Lamp",
     "title": "2D Lamp",
     "image": "2D_Lamp.webp",
@@ -401,7 +455,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 31,
     "category": "PVC Pipe",
     "title": "PVC Pipe",
     "image": "PVC_Pipe.jpg",
@@ -418,6 +472,15 @@
       ["20MM", "Yellow", "Black, White"],
       ["38MM", "Yellow", "Black, White"],
       ["50MM", "Yellow", "Black, White"]
+    ]
+  },
+  {
+    "id": 32,
+    "category": "PVC Pipe",
+    "title": "PVC Flexible Pipe",
+    "image": "PVC_Pipe_Flex.jpg",
+    "headers": ["More details to come!"],
+    "variants": [
     ]
   }
 ]

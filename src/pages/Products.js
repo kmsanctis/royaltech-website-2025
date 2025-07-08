@@ -25,6 +25,7 @@ function Products() {
     "60x60 Panel",
     "Floodlight",
     "Highbay",
+    "Bulkhead",
     "Lamp",
     "PVC Pipe"
   ];
