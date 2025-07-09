@@ -23,10 +23,11 @@ function Products() {
     "PL Lamp",
     "Downlight Fitting",
     "60x60 Panel",
+    "Bulkhead",
     "Floodlight",
     "Highbay",
-    "Bulkhead",
     "Lamp",
+    "Switchgear",
     "PVC Pipe"
   ];
 
