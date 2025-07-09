@@ -65,6 +65,16 @@
   {
     "id": 6,
     "category": "Tube",
+    "title": "Insect Killer Tube",
+    "image": "Blacklight_Tube.webp",
+    "headers": ["Wattage", "Available Colours"],
+    "variants": [
+      ["4W, 6W, 8W, 10W, 15W, 18W, 20W, 40W", "Blacklight, BL"]
+    ]
+  },
+  {
+    "id": 7,
+    "category": "Tube",
     "title": "Round Fluorescent Tube",
     "image": "Round_Tube.jpg",
     "headers": ["Shape", "Wattage", "Available Colours"],
@@ -73,23 +83,13 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "category": "Tube",
     "title": "U Fluorescent Tube",
     "image": "U_Tube.jpg",
     "headers": ["Shape", "Wattage", "Available Colours"],
     "variants": [
       ["U", "36W", "4000K"]
-    ]
-  },
-  {
-    "id": 8,
-    "category": "Tube",
-    "title": "Insect Killer Tube",
-    "image": "Blacklight_Tube.webp",
-    "headers": ["Wattage", "Available Colours"],
-    "variants": [
-      ["4W, 6W, 8W, 10W, 15W, 18W, 20W, 40W", "Blacklight, BL"]
     ]
   },
   {
@@ -193,36 +193,6 @@
   {
     "id": 16,
     "category": "Downlight Fitting",
-    "title": "LED Surface Downlight",
-    "image": "Surface_Downlight_Fitting.jpg",
-    "headers": ["Wattage", "Available Colours"],
-    "variants": [
-      ["3W", "3000K, 4000K"],
-      ["5W", "3000K"],
-      ["6W", "3000K, 6500K"],
-      ["7W", "6500K"],
-      ["8W", "6500K"],
-      ["12W", "3000K, 6500K"],
-      ["13W", "6500K"],
-      ["15W", "3000K, 6500K"],
-      ["18W", "3000K, 4000K, 6500K"],
-      ["20W", "3000K, 6500K"],
-      ["22W", "6500K"],
-      ["24W", "3000K, 4000K, 6500K"],
-      ["28W", "6500K"],
-      ["30W", "3000K, 6500K"],
-      ["35W", "6500K"],
-      ["36W", "6500K"],
-      ["40W", "3000K, 4000K, 6500K"],
-      ["42W", "6500K"],
-      ["48W", "6500K"],
-      ["50W", "3000K, 4000K, 6500K"],
-      ["60W", "6500K"]
-    ]
-  },
-  {
-    "id": 17,
-    "category": "Downlight Fitting",
     "title": "LED Panel Downlight",
     "image": "Panel_Downlight_Fitting.webp",
     "headers": ["Wattage", "Available Colours"],
@@ -256,6 +226,36 @@
       ["35W", "3000K, 6500K"],
       ["36W", "3000K, 6500K"],
       ["40W", "4000K"]
+    ]
+  },
+  {
+    "id": 17,
+    "category": "Downlight Fitting",
+    "title": "LED Surface Downlight",
+    "image": "Surface_Downlight_Fitting.jpg",
+    "headers": ["Wattage", "Available Colours"],
+    "variants": [
+      ["3W", "3000K, 4000K"],
+      ["5W", "3000K"],
+      ["6W", "3000K, 6500K"],
+      ["7W", "6500K"],
+      ["8W", "6500K"],
+      ["12W", "3000K, 6500K"],
+      ["13W", "6500K"],
+      ["15W", "3000K, 6500K"],
+      ["18W", "3000K, 4000K, 6500K"],
+      ["20W", "3000K, 6500K"],
+      ["22W", "6500K"],
+      ["24W", "3000K, 4000K, 6500K"],
+      ["28W", "6500K"],
+      ["30W", "3000K, 6500K"],
+      ["35W", "6500K"],
+      ["36W", "6500K"],
+      ["40W", "3000K, 4000K, 6500K"],
+      ["42W", "6500K"],
+      ["48W", "6500K"],
+      ["50W", "3000K, 4000K, 6500K"],
+      ["60W", "6500K"]
     ]
   },
   {
@@ -294,6 +294,15 @@
   },
   {
     "id": 20,
+    "category": "Bulkhead",
+    "title": "LED Bulkhead",
+    "image": "Bulkhead_Fitting.jpg",
+    "headers": ["More details to come!"],
+    "variants": [
+    ]
+  },
+  {
+    "id": 21,
     "category": "Floodlight",
     "title": "LED Floodlight",
     "image": "Floodlight_Fitting.webp",
@@ -318,7 +327,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "category": "Highbay",
     "title": "LED Highbay",
     "image": "Highbay_Fitting.jpg",
@@ -337,25 +346,7 @@
     ]
   },
   {
-    "id": 22,
-    "category": "Bulkhead",
-    "title": "LED Bulkhead",
-    "image": "Bulkhead_Fitting.jpg",
-    "headers": ["More details to come!"],
-    "variants": [
-    ]
-  },
-  {
     "id": 23,
-    "category": "Lamp",
-    "title": "LED Candle Lamp",
-    "image": "Candle_Lamp.jpg",
-    "headers": ["More details to come!"],
-    "variants": [
-    ]
-  },
-  {
-    "id": 24,
     "category": "Lamp",
     "title": "LED Ball Lamp",
     "image": "Ball_Lamp.webp",
@@ -364,48 +355,16 @@
     ]
   },
   {
+    "id": 24,
+    "category": "Lamp",
+    "title": "LED Candle Lamp",
+    "image": "Candle_Lamp.jpg",
+    "headers": ["More details to come!"],
+    "variants": [
+    ]
+  },
+  {
     "id": 25,
-    "category": "Lamp",
-    "title": "LED GLS Lamp",
-    "image": "GLS_Lamp.webp",
-    "headers": ["More details to come!"],
-    "variants": [
-    ]
-  },
-  {
-    "id": 26,
-    "category": "Lamp",
-    "title": "LED Energy Saver (ES) Lamp",
-    "image": "ES_Lamp.avif",
-    "headers": ["More details to come!"],
-    "variants": [
-    ]
-  },
-  {
-    "id": 27,
-    "category": "Lamp",
-    "title": "LED Stick Lamp",
-    "image": "Stick_Lamp.avif",
-    "headers": ["Wattage", "Available Colours"],
-    "variants": [
-      ["5W", "3000K"],
-      ["6W", "3000K, 4000K, 6500K"],
-      ["7W", "3000K, 6500K"],
-      ["8W", "3000K, 6500K"],
-      ["9W", "6500K"],
-      ["10W", "3000K, 4000K, 6500K"],
-      ["11W", "3000K, 6500K"],
-      ["12W", "3000K, 4000K, 6500K"],
-      ["13W", "3000K, 6500K"],
-      ["15W", "3000K, 6500K"],
-      ["16W", "6500K"],
-      ["20W", "3000K, 6500K"],
-      ["22W", "6500K"],
-      ["25W", "3000K, 4000K, 6500K"]
-    ]
-  },
-  {
-    "id": 28,
     "category": "Lamp",
     "title": "LED Cylinder Lamp",
     "image": "Cylinder_Lamp.avif",
@@ -433,7 +392,57 @@
     ]
   },
   {
+    "id": 26,
+    "category": "Lamp",
+    "title": "LED Energy Saver (ES) Lamp",
+    "image": "ES_Lamp.avif",
+    "headers": ["More details to come!"],
+    "variants": [
+    ]
+  },
+  {
+    "id": 27,
+    "category": "Lamp",
+    "title": "LED GLS Lamp",
+    "image": "GLS_Lamp.webp",
+    "headers": ["More details to come!"],
+    "variants": [
+    ]
+  },
+  {
+    "id": 28,
+    "category": "Lamp",
+    "title": "LED Spot Lamp",
+    "image": "Spot_Lamp.jpeg",
+    "headers": ["More details to come!"],
+    "variants": [
+    ]
+  },
+  {
     "id": 29,
+    "category": "Lamp",
+    "title": "LED Stick Lamp",
+    "image": "Stick_Lamp.avif",
+    "headers": ["Wattage", "Available Colours"],
+    "variants": [
+      ["5W", "3000K"],
+      ["6W", "3000K, 4000K, 6500K"],
+      ["7W", "3000K, 6500K"],
+      ["8W", "3000K, 6500K"],
+      ["9W", "6500K"],
+      ["10W", "3000K, 4000K, 6500K"],
+      ["11W", "3000K, 6500K"],
+      ["12W", "3000K, 4000K, 6500K"],
+      ["13W", "3000K, 6500K"],
+      ["15W", "3000K, 6500K"],
+      ["16W", "6500K"],
+      ["20W", "3000K, 6500K"],
+      ["22W", "6500K"],
+      ["25W", "3000K, 4000K, 6500K"]
+    ]
+  },
+  {
+    "id": 30,
     "category": "Lamp",
     "title": "LED 2D Lamp",
     "image": "LED_2D_Lamp.webp",
@@ -443,7 +452,7 @@
     ]
   },
   {
-    "id": 30,
+    "id": 31,
     "category": "Lamp",
     "title": "2D Lamp",
     "image": "2D_Lamp.webp",
@@ -455,7 +464,61 @@
     ]
   },
   {
-    "id": 31,
+    "id": 32,
+    "category": "Switchgear",
+    "title": "Changeover",
+    "image": "Changeover.webp",
+    "headers": ["More details to come!"],
+    "variants": [
+    ]
+  },
+  {
+    "id": 33,
+    "category": "Switchgear",
+    "title": "Isolator",
+    "image": "Isolator.webp",
+    "headers": ["More details to come!"],
+    "variants": [
+    ]
+  },
+  {
+    "id": 34,
+    "category": "Switchgear",
+    "title": "ELCB",
+    "image": "ELCB.jpg",
+    "headers": ["More details to come!"],
+    "variants": [
+    ]
+  },
+  {
+    "id": 35,
+    "category": "Switchgear",
+    "title": "MCB",
+    "image": "MCB.jpg",
+    "headers": ["More details to come!"],
+    "variants": [
+    ]
+  },
+  {
+    "id": 36,
+    "category": "Switchgear",
+    "title": "MCCB",
+    "image": "MCCB.avif",
+    "headers": ["More details to come!"],
+    "variants": [
+    ]
+  },
+  {
+    "id": 37,
+    "category": "Switchgear",
+    "title": "RCBO",
+    "image": "RCBO.webp",
+    "headers": ["More details to come!"],
+    "variants": [
+    ]
+  },
+  {
+    "id": 38,
     "category": "PVC Pipe",
     "title": "PVC Pipe",
     "image": "PVC_Pipe.jpg",
@@ -475,7 +538,7 @@
     ]
   },
   {
-    "id": 32,
+    "id": 39,
     "category": "PVC Pipe",
     "title": "PVC Flexible Pipe",
     "image": "PVC_Pipe_Flex.jpg",
